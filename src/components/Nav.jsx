@@ -24,14 +24,14 @@ const Nav = () => {
           )
             )}
         </ul>
-        <div className='flex justify-center gap-4 text-lg
-        items-center max-lg:hidden
+        <div className='text-palanquin flex justify-center gap-4 text-xl
+        items-center max-lg:hidden font-bold
        '>
           <button className=''>Login</button>
-          <p className='text-xl'>/</p>
+          <p className='text-2xl'>/</p>
           <button>Sign up</button>
         </div>
-        <div className='lg:hidden'>
+        <div className='hidden max-lg:block'>
           <img src={ hamburger } alt="Hamburger" 
           width={25}
           height={25}/>

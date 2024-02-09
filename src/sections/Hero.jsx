@@ -18,7 +18,7 @@ const Hero = () => {
       pt-28 '>
         <p className='font-montserrat text-xl text-coral-red '>Our Summer Collection!</p>
         <h1 className='mt-10 font-palanquin text-8xl max-sm:text-[72px]
-        max-sm:leading-[82] font-bold flex flex-col space-x-0'>
+        max-sm:leading-[82] font-bold '>
           <span className='xl:bg-white xl:whitespace-nowrap relative z-10 '>The New Arrival</span>
           <br />
           <span className="text-coral-red xl:bg-white z-20">Nike </span> Shoes
