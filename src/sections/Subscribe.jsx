@@ -6,7 +6,7 @@ const Subscribe = () => {
     <section className='flex flex-col justify-between
     items-center max-lg:flex-col gap-10 max-container ' id="contact-us">
       <h3 className='text-4xl leading-[68px] 
-      font-palanquin font-bold '>Sign up from 
+      font-palanquin font-bold text-center '>Sign up from 
       <span className='text-coral-red'> Updates
       </span> & Newsletter
       </h3>
