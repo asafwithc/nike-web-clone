@@ -2,6 +2,8 @@ import React from 'react'
 import { headerLogo } from '../assets/images'
 import { hamburger } from '../assets/icons'
 import { navLinks } from '../constants'
+import Button from './Button'
+
 const Nav = () => {
   return (
     <header className='padding-x py-8 
@@ -24,12 +26,14 @@ const Nav = () => {
           )
             )}
         </ul>
-        <div className='text-palanquin flex justify-center gap-4 text-xl
+        <div className='font-montserrat flex justify-center gap-4 text-xl
         items-center max-lg:hidden font-bold
        '>
-          <button className=''>Login</button>
-          <p className='text-2xl'>/</p>
-          <button>Sign up</button>
+          {/*<button className=''>Login</button>
+          <p className='text-2xl'>|</p>
+          <button>Sign up</button>*/}
+          <Button label="Login" />
+          <Button label="Sign up" />
         </div>
         <div className='hidden max-lg:block'>
           <img src={ hamburger } alt="Hamburger" 
