@@ -8,9 +8,10 @@ const Footer = () => {
      '>
       <div className='flex max-lg:flex-col justify-between gap-20'>
         <div>
-
-        <img src={footerLogo} alt="footer logo" 
-        width={150} height={46}/>
+          <a href="" className='text-4xl text-4 font-montserrat font-bold
+          text-transparent bg-gradient-to-r bg-clip-text from-coral-red to-slate-400'>SHOEGATE</a>
+        {/*<img src={footerLogo} alt="footer logo" 
+        width={150} height={46}/>*/}
         <p className='max-w-sm text-white font-montserrat
         mt-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque accusantium exercitationem dolores explicabo voluptatem, doloribus.</p>
         <div className='flex item-center gap-5 mt-4'>

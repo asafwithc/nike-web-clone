@@ -11,17 +11,17 @@ const Hero = () => {
     <section id="home" 
     className='w-full p-2 flex
     xl:flex-row flex-col justify-center min-h-screen
-    max-container gap-5'
+    max-container gap-5 '
     >
       <div className='relative xl:w-2/5 flex flex-col
       justify-center items-start w-full max-xl:padding-x
       pt-28 '>
         <p className='font-montserrat text-xl text-coral-red '>Our Summer Collection!</p>
         <h1 className='mt-10 font-palanquin text-8xl max-sm:text-[72px]
-        max-sm:leading-[82] font-bold '>
-          <span className='xl:bg-white xl:whitespace-nowrap relative z-10 '>The New Arrival</span>
+         font-bold '>
+          <span className='xl:bg-white xl:whitespace-nowrap absolute z-10 pb-2 pr-5'>The New Arrival</span>
           <br />
-          <span className="text-coral-red xl:bg-white z-20">Nike </span> Shoes
+          <span className="text-coral-red xl:bg-white z-30">ShoeGate </span> Shoes
         </h1>
         <p className='font-montserrat text-slate-gray text-lg
         leading-8 mt-6 mb-14 sm:max-w-sm'>Discover stylish nike arrivals, quality comfort, and

@@ -5,9 +5,9 @@ const SuperQuality = () => {
   return (
     <div className='flex justify-between items-center
     max-lg:flex-col gap-10 w-full max-container ' id='about-us'>
-      <div className='flex flex-1 flex-col'>
+      <div className='flex flex-1 flex-col max-lg:items-center max-lg:text-center max-lg:justify-center'>
         <h2 className='font-palanquin capitalize text-4xl lg:max-w-lg 
-        font-bold'>
+        font-bold '>
           We Provide You 
           <span className="text-coral-red"> Super </span> 
           <span className="text-coral-red">Quality </span>
