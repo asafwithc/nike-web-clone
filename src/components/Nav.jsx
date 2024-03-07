@@ -34,6 +34,7 @@ const Nav = () => {
           ))}
         </ul>
 
+
         {/* Navigation Links (for larger screens) */}
         <ul className={`lg:flex max-lg:hidden justify-center items-center gap-16 ${click ? 'hidden' : 'flex'}`}>
           {navLinks.map((item) => (
