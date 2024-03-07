@@ -17,11 +17,11 @@ const Hero = () => {
       justify-center items-start w-full max-xl:padding-x
       pt-28 '>
         <p className='font-montserrat text-xl text-coral-red '>Our Summer Collection!</p>
-        <h1 className='mt-10 font-palanquin text-8xl max-sm:text-[72px]
+        <h1 className='mt-10 font-palanquin text-8xl max-lg:text-[72px]
          font-bold '>
           <span className='xl:bg-white xl:whitespace-nowrap absolute z-10 pb-2 pr-5'>The New Arrival</span>
           <br />
-          <span className="text-coral-red xl:bg-white z-30">ShoeGate </span> Shoes
+          <span className="text-coral-red xl:bg-white z-30">Shoegate </span> Shoes
         </h1>
         <p className='font-montserrat text-slate-gray text-lg
         leading-8 mt-6 mb-14 sm:max-w-sm'>Discover stylish nike arrivals, quality comfort, and
@@ -49,8 +49,8 @@ const Hero = () => {
         className='object-contain relative z-10 '
         />
         <div className='flex absolute -bottom-[5%] sm:gap-6 
-        gap-4 max-sm:px-6'>
-          {shoes.map((shoe, index)=>(
+        gap-4 max-sm:px-6 '>
+          {shoes.map((shoe)=>(
             <div key={shoe}>
               <ShoeCard 
               imgURL={shoe}
