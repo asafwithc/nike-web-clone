@@ -18,7 +18,7 @@ const Hero = () => {
       pt-28 '>
         <p className='font-montserrat text-xl text-coral-red '>Our Summer Collection!</p>
         <h1 className='mt-10 font-palanquin text-8xl max-lg:text-[72px]
-         font-bold '>
+         font-bold max-sm:text-[58px] max-sm:leading-none'>
           <span className='xl:bg-white xl:whitespace-nowrap absolute z-10 pb-2 pr-5'>The New Arrival</span>
           <br />
           <span className="text-coral-red xl:bg-white z-30">Shoegate </span> Shoes
